@@ -89,3 +89,9 @@ nav ul li a:hover::after{
     font-size: 60px;
     margin-top: 20px;
 }
+
+
+.header-text h2 span{
+    color:aquamarine;
+    font-family: 'Sofia';
+}

@@ -186,3 +186,15 @@ nav ul li a:hover::after{
     font-size: 14px;
     font-family: 'Righteous', cursive;
 }
+
+
+.tab-contents{
+    display: none;
+}
+
+
+.tab-contents.active-tab{
+    display: block;
+}
+
+

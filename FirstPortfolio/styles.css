@@ -131,7 +131,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: aquamarine;
+    color:deepskyblue;
     font-family: 'Sofia';
 }
 
@@ -210,4 +210,32 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin: 50px;
+}
+
+
+.services-list h2{
+    font-family: 'Righteous', cursive;
+    color: darkviolet;
+}
+
+
+.services-list p{
+    font-family: 'Quicksand';
+}
+
+
+.services-list a{
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+.services-list div{
+    background:dodgerblue;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    border-radius: 30px;
 }

@@ -213,29 +213,33 @@ nav ul li a:hover::after{
 }
 
 
-.services-list h2{
-    font-family: 'Righteous', cursive;
-    color: darkviolet;
-}
-
-
-.services-list p{
-    font-family: 'Quicksand';
-}
-
-
-.services-list a{
-    font-family: 'Righteous', cursive;
-    text-decoration: none;
-    color: blueviolet;
-}
-
-
 .services-list div{
-    background:dodgerblue;
+    background: dodgerblue;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
     border-right: 10px;
-    border-radius: 30px;
+    transition: background 0.5s, transfome 0.5s;
+}
+
+
+.services-list h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+.services-list div a{
+    text-decoration: none;
+    color: magenta;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+services-list div:hover{
+    background-color: cornflowerblue;
+    transform: translateY(-10px);
 }

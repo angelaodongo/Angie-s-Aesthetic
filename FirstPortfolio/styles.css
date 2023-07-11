@@ -418,5 +418,14 @@ nav ul li a:hover::after{
 
 
 form input, form textarea{
-    
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: bisque;
+    padding: 15px;
+    margin: 15px 0;
+    color:black;
+    font-family: 'Quicksand';
+    font-size: 18px;
+    border-radius: 6px;
 }

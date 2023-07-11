@@ -366,3 +366,57 @@ nav ul li a:hover::after{
 .btn:hover{
     background: chocolate;
 }
+
+
+
+/*----contact----*/
+.contact-left{
+    flex-basis: 35%;
+}
+
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+
+.social-icons{
+    margin-top: 30px;
+}
+
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:crimson;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+
+.social-icons a:hover{
+    color: blue;
+    transform: translateY(-5px);
+}
+
+
+.btn.btn2{
+    display: inline-block;
+    background: crimson;
+}
+
+
+.contact-right form{
+    width:100%;
+}
+
+
+form input, form textarea{
+    
+}

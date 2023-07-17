@@ -465,7 +465,7 @@ form .btn2{
 /* -------css for media screens------*/
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 300px){
     #header{
         background: url(https://wallpapercave.com/wp/wp6400060.jpg);
     }
@@ -475,5 +475,6 @@ form .btn2{
     }
     .header-text h1{
         font-size: 30px;
+        
     }
 }
